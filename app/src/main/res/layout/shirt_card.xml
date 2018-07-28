@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_rect"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="228dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/text1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="#228B22"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/offers_textview"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_marginRight="10dp"
+            android:id="@+id/price_tag"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

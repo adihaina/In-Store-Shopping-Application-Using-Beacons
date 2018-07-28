@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.beacons.shopping.shoppingmall.Home">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+   <android.support.v4.view.ViewPager
+       android:focusable="true"
+       android:focusableInTouchMode="true"
+       android:layout_marginTop="5dp"
+       android:layout_marginLeft="2dp"
+       android:layout_marginRight="2dp"
+       android:layout_width="match_parent"
+       android:id="@+id/viewpager"
+       android:layout_height="225dp"
+       android:layout_marginBottom="10dp">
+
+   </android.support.v4.view.ViewPager>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="5dp"
+         android:background="#808080"
+          android:id="@+id/v1"
+          android:visibility="invisible"/>
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+
+         <android.support.v7.widget.RecyclerView
+             android:layout_width="wrap_content"
+             android:id="@+id/recycle1"
+             android:layout_height="wrap_content"
+             />
+      </LinearLayout>
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="5dp"
+          android:background="#808080"
+          android:id="@+id/v2"
+          android:visibility="invisible">
+      </View>
+      <TextView
+          android:layout_marginLeft="10dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Various Brands in Store"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:id="@+id/textwa"
+          android:visibility="invisible"
+          android:textColor="#000"
+          android:layout_marginTop="15dp"
+          android:layout_marginBottom="10dp"/>
+
+
+          <android.support.v7.widget.RecyclerView
+             android:layout_width="wrap_content"
+             android:id="@+id/recycle"
+             android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+             >
+         </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+   </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:background="@drawable/border_rect1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="3dp"
+        android:layout_marginTop="5dp"
+        android:paddingVertical="3dp"
+        android:background="@drawable/border_rect">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Brand"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand 1"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/brand1"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="Brand 2"
+        android:id="@+id/brand2"/></LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="5dp"
+            android:paddingVertical="3dp"
+            android:background="@drawable/border_rect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Price"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="25dp"
+         android:textColor="#000"
+         android:text="₹"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Min Price"
+        android:inputType="number"
+        android:id="@+id/min"
+        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000"
+                android:text="₹"/>
+            <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Max Price"
+                android:inputType="number"
+                android:id="@+id/max"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="3dp"
+        android:layout_marginTop="5dp"
+        android:paddingVertical="3dp"
+        android:background="@drawable/border_rect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Min Rating"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/rating_spinner"
+        android:entries="@array/Ratings"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:background="#FF8C00"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/apply_filter_button"/>
+    <Button
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="#000"
+        android:background="@drawable/border_rect"
+        android:id="@+id/cancel_button"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

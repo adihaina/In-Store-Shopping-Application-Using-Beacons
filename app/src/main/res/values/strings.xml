@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">My Mart</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="closure">
+        <item>Laces</item>
+        <item>Slip On</item>
+        <item>Button</item>
+        <item>Chain</item>
+    </string-array>
+    <string-array name="material">
+        <item>Mesh</item>
+        <item>Synthetic</item>
+        <item>Rubber</item>
+        <item>Leather</item>
+    </string-array>
+    <string-array name="tip_shape">
+        <item>Round</item>
+        <item>Pointed</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="Neck_Type">
+        <item>V Neck</item>
+        <item>Round Neck</item>
+    </string-array>
+    <string-array name="Shoe_Type">
+        <item>Flats</item>
+        <item>Heels</item>
+        <item>Loafers</item>
+        <item>Bellies</item>
+        <item>Sneakers</item>
+        <item>Formals</item>
+        <item>Boots</item>
+        <item>Ruuning Shoes</item>
+    </string-array>
+    <string-array name="sleeves">
+        <item>No Sleeves</item>
+        <item>Full Sleeves</item>
+        <item>Half Sleaeves</item>
+        <item>3/4 Sleeves</item>
+    </string-array>
+
+    <string-array name="product_type">
+        <item>Choose a product_type</item>
+        <item>Men_Shirt</item>
+        <item>Men_Trousers</item>
+        <item>Men_Footwear</item>
+        <item>Women_Suits</item>
+        <item>Women_Footwear</item>
+        <item>Women_Top</item>
+    </string-array>
+    <string-array name="Brands">
+        <item>Peter_England</item>
+        <item>Van_Huesen</item>
+        <item>Blackberry</item>
+        <item>John_Player</item>
+        <item>Beba</item>
+        <item>Lebas</item>
+        <item>Puma</item>
+        <item>Red_Chief</item>
+        <item>Fashion_Plannet</item>
+        <item>Red_Tape</item>
+        <item>Harpa</item>
+        <item>CatWalk</item>
+
+    </string-array>
+    <string-array name="Offers">
+        <item>No Offers</item>
+    </string-array>
+
+    <string-array name="Sorting">
+        <item>Sort</item>
+        <item>Rating-Low-To-High</item>
+        <item>Rating-High-T0-Low</item>
+        <item>Price-Low-To-High</item>
+        <item>Price-High-T0-Low</item>
+
+    </string-array>
+    <string-array name="Ratings">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+    <string-array name="Fabric">
+        <item>Cotton</item>
+        <item>Synthetic</item>
+        <item>Denim</item>
+        <item>Terycott</item>
+    </string-array>
+    <string-array name="Occasion">
+        <item>Formal</item>
+        <item>Casual</item>
+        <item>Functions</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="Salwar_type">
+        <item>Churdidar</item>
+        <item>Regular</item>
+        <item>Plazo</item>
+    </string-array>
+    <string-array name="Dupatta">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Size">
+        <item>Select Size</item>
+
+    </string-array>
+
+    <string-array name="Pockets">
+        <item>No_Pockets</item>
+        <item>Single_Front</item>
+        <item>Double_Front</item>
+        <item>Cross_Pockets</item>
+        <item>Simple</item>
+    </string-array>
+    <string-array name="Fit">
+        <item>Slim</item>
+        <item>Regular</item>
+
+    </string-array>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://www.jnanagni.in\",\n  }\n}]</string>
+
+</resources>

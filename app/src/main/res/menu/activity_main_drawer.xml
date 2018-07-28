@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/a4"
+        android:title="Home" />
+
+            <item
+                android:id="@+id/men_shirt"
+                android:icon="@drawable/a"
+                android:title="Male Shirts" />
+            <item
+                android:id="@+id/men_jeans"
+                android:icon="@drawable/aaaa"
+                android:title="Male Trousers" />
+            <item
+                android:id="@+id/men_footwear"
+                android:icon="@drawable/a2"
+                android:title="Male Footwear" />
+            <item
+                android:id="@+id/women_tops"
+                android:icon="@drawable/aaaaa"
+                android:title="Female Tops" />
+            <item
+                android:id="@+id/women_suits"
+                android:icon="@drawable/a3"
+                android:title="Female Suits" />
+            <item
+                android:id="@+id/women_footwear"
+                android:icon="@drawable/a1"
+                android:title="Female Footwear" />
+
+
+
+    <item android:id="@+id/Profile"
+            android:icon="@drawable/aa"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/Cart"
+            android:icon="@drawable/a9"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/aaa"
+            android:title="My Orders" />
+    <item android:id="@+id/uploadsection"
+        android:icon="@drawable/aaaaaa"
+        android:title="Upload Section[Admin]"/>
+</menu>
